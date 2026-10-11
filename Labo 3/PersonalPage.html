@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -6,44 +5,104 @@
     <title>Mijn homepage</title>
 </head>
 <body>
-<h1>Mijn persoonlijke homepage</h1>
 
-<h2>Over mezelf</h2>
-<p>Naam: Spider Man</p>
-<p>Adres: Vivesstraat 10, Kortrijk</p>
-<p>Telefoon: 0470 10 10</p>
-<p>E-mail: Vives@Vivew.com</p>
+<header>
+    <h1>Mijn persoonlijke homepage</h1>
+</header>
 
-<img src="image/images_Spiderprofiel.jpg"
-     alt="profiel foto">
+<main>
+    <section>
+        <h2>Over mezelf</h2>
+        <address>
+            <p>Naam: Spider Man</p>
+            <p>Adres: Vivesstraat 10, Kortrijk</p>
+            <p>Telefoon: 0470 10 10</p>
+            <p>E-mail: Vives@Vivew.com</p>
+        </address>
 
-<h2>Mijn hobby's</h2>
-<ul>
-    <li>
-        <h3>Voetbal</h3>
-        <p>Ik speel graag voetbal met mijn vrienden.</p>
-        <a href="https://www.fifa.com/">FIFA</a>
-    </li>
-    <li>
-        <h3>Gamen</h3>
-        <p>Ik speel graag games in mijn vrije tijd.</p>
-        <a href="https://store.steampowered.com/">Steam</a>
-    </li>
-    <li>
-        <h3>Fietsen</h3>
-        <p>Ik ga graag fietsen als ik vrije tijd heb.</p>
-        <a href="https://www.komoot.com/">Komoot</a>
+        <figure>
+            <img src="image/images_Spiderprofiel.jpg" alt="profiel foto">
+            <figcaption>Profielfoto van Spider Man</figcaption>
+        </figure>
+    </section>
 
-    </li>
-</ul>
-<h2>Mijn interesses</h2>
+    <section>
+        <h2>Mijn hobby's</h2>
+        <ul>
+            <li>
+                <article>
+                    <h3>Voetbal</h3>
+                    <p>Ik speel graag voetbal met mijn vrienden.</p>
+                    <p><a href="https://www.fifa.com/" target="_blank">FIFA</a></p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3>Gamen</h3>
+                    <p>Ik speel graag games in mijn vrije tijd.</p>
+                    <p><a href="https://store.steampowered.com/" target="_blank">Steam</a></p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3>Fietsen</h3>
+                    <p>Ik ga graag fietsen als ik vrije tijd heb.</p>
+                    <p><a href="https://www.komoot.com/" target="_blank">Komoot</a></p>
+                </article>
+            </li>
+        </ul>
+    </section>
 
-<p>Imagine Dragons</p>
-<a href="https://www.imaginedragonsmusic.com/">
-    <img src="image/images-imaginedragons.jpg"
-         alt="Imagine Dragons">
-</a>
+    <section>
+        <h2>Mijn interesses</h2>
+        <article>
+            <p>Imagine Dragons</p>
+            <a href="https://www.imaginedragonsmusic.com/" target="_blank">
+                <img src="image/images-imaginedragons.jpg" alt="Imagine Dragons">
+            </a>
+        </article>
+    </section>
 
+    <section>
+        <p>Overzicht van de voorspelde scores voor drie vakken van mezelf en drie medestudenten:</p>
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Naam</th>
+                <th>WebDev</th>
+                <th>Programmeren</th>
+                <th>Databases</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Spider Man </td>
+                <td>16</td>
+                <td>17</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Peter Parker</td>
+                <td>18</td>
+                <td>19</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Miles Morales</td>
+                <td>14</td>
+                <td>16</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Gwen Stacy</td>
+                <td>17</td>
+                <td>18</td>
+                <td>18</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
 
 </body>
 </html>
