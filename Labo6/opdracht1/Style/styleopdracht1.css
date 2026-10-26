@@ -1,0 +1,10 @@
+.list>li
+{
+    display: inline-block;
+    width: 150px;
+}
+
+.list>li>a
+{
+    color: red;
+}
