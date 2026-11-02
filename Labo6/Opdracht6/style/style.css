@@ -1,0 +1,18 @@
+body {
+    font-size: 2em;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+li::before
+{
+    content: "☐";
+}
+
+li.checked::before
+{
+    content: "☑";
+}
