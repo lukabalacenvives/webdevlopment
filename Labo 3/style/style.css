@@ -1,0 +1,85 @@
+body
+{
+    background-image: url("../image/achtergrondMarvel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 40px 0;                /* Geeft ruimte boven en onder de witte kaart */
+    text-align: center;
+}
+section
+{
+    width: 80%;                     /* Neemt 80% van de schermbreedte in */
+    max-width: 700px;               /* Wordt op grote schermen nooit breder dan 700px */
+    margin: 5px auto;                 /* <-- DIT centreert het hele blok horizontaal! */
+    background-color:#EDF2F4; /* Licht transparant wit vlak voor goede leesbaarheid */
+    padding: 30px;                  /* Ruimte binnenin rondom je foto en tekst */
+    border-radius: 15px;            /* Maakt de hoeken mooi afgerond */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Geeft een subtiele schaduw */
+}
+
+
+img {
+    display: block;                 /* Nodig om de foto met margin auto te kunnen centreren */
+    margin: 0 auto;                 /* Centreert de foto in het midden van de kaart */
+    width: 250px;                   /* Geeft de foto een nette, niet te grote maat */
+    border-radius: 10px;            /* Subtiele ronde hoeken op de foto */
+}
+header
+{
+    text-align: center;
+    color: white;
+    text-decoration-line: underline;
+}
+
+#vrienden {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    border: 1px solid #991821;
+}
+
+
+#vrienden td, #vrienden th {
+    padding: 6px 10px;
+}
+
+
+#vrienden thead th {
+    background: linear-gradient(to bottom, #991821 5%, #80141C 100%);
+    background-color: #991821;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-left: 1px solid #B01C26;
+}
+
+
+#vrienden thead th:first-child {
+    border: none;
+}
+
+
+#vrienden tbody td {
+    color: #80141C;
+    border-left: 1px solid #F7CDCD;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+#vrienden tbody .alt td {
+    background: #F7CDCD;
+    color: #80141C;
+}
+
+
+#vrienden tbody td:first-child {
+    border-left: none;
+}
+.onbekend {
+    background-color: red;
+}
